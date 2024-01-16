@@ -12,8 +12,8 @@
     <!--add favicon-->
     <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon">
     <title>Narayan Khanal's Portfolio</title>
-  <script type="module" crossorigin src="/assets/index-qntik6AW.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-ZK2c3MhV.css">
+  <script type="module" crossorigin src="/assets/index-mIc5Pdiy.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-dqdHVcwU.css">
 </head>
 
 <body class="relative">
@@ -213,33 +213,29 @@
                 class="contact-info-container sm:flex sm:items-center sm:justify-center sm:space-x-10 text-sm sm:text-base md:text-md 2xl:text-lg">
                 <section class="left-half mx-2 my-3 relative">
                     <div class="contact-form text-base md:text-lg">
-                        <form action="" name="contact-info" method="POST" class="contactForm">
+                        <form action ="https://api.web3forms.com/submit" method="POST" name="contact-info"  class="contactForm">
                             <div class="input-contact">
+                                <input type="hidden" name="access_key" value="ca7a9322-91ed-424c-99de-b06172831b39">
+                                <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                                <input type="checkbox" name="botcheck" class="hidden">
+
                                 <input class="w-full mb-4 py-2 bg-slate-50 px-2 border-b border-black rounded-b-lg"
-                                    type="text" name="userFullName" id="yourFullName" placeholder="Your Full Name">
+                                    type="text" name="userFullName" id="yourFullName" placeholder="Your Full Name" required>
                                 <input class="w-full mb-4 py-2 bg-slate-50 px-2 border-b border-black rounded-b-lg"
-                                    type="email" name="userEmail" id="email" autocomplete="off" placeholder="Your Email">
+                                    type="email" name="userEmail" id="email" autocomplete="off" placeholder="Your Email" required>
                                 <input class="w-full mb-4 py-2 bg-slate-50 px-2 border-b border-black rounded-b-lg"
-                                    type="text" name="userTitle" id="title" placeholder="Title">
+                                    type="text" name="userTitle" id="title" placeholder="Title" required>
                             </div>
                             <div class="text-area">
                                 <textarea class="w-full mb-4 py-2 bg-slate-50 px-2 border-b border-black rounded-b-lg"
-                                    name="userConcern" id="concern" placeholder="Your Concern...."></textarea>
+                                    name="userConcern" id="concern" placeholder="Your Concern...." required></textarea>
                             </div>
                             <div class="submit-btn">
                                 <button type="submit"
-                                    class="p-[0.2rem] bg-black rounded-md text-white shadow-md px-3 font-base hover:cursor-pointer hover:bg-[#15D3E0] hover:text-black hover:border hover:border-black active:bg-slate-400 transition-all ease-in">Send</button>
+                                    class="send-btn p-[0.2rem] bg-black rounded-md text-white shadow-md px-3 font-base hover:cursor-pointer hover:bg-[#15D3E0] hover:text-black hover:border hover:border-black active:bg-slate-400 transition-all ease-in">Send</button>
                             </div>
 
                         </form>
-                    </div>
-                    <div class=" hidden submit-info w-fit h-[6rem] bg-slate-100 absolute inset-0 m-auto rounded-md shadow-xl text-lg font-medium">
-                        <div class="flex flex-col justify-center items-center -space-y-2">
-                            <p class="px-1 py-2 text-center">You've have successfully submitted the form!
-                            </p>
-                            <p><i class="fa-solid fa-square-check text-2xl text-green-600"></i>
-                            </p>
-                        </div>
                     </div>
 
                 </section>
