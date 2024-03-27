@@ -12,8 +12,8 @@
     <!--add favicon-->
     <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon">
     <title>Narayan Khanal's Portfolio</title>
-  <script type="module" crossorigin src="/assets/index-PYsnMKar.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-WaJrnFLW.css">
+  <script type="module" crossorigin src="/assets/index-kpFE21mw.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-dAf_Q35c.css">
 </head>
 
 <body class="relative">
@@ -35,6 +35,9 @@
                                 href="#about">About</a></li>
                         <li class="list-options hover:cursor-pointer"><a
                                 class="links hover:cursor-pointer hover:border-b-2 hover:border-b-[#15D3E0] active:font-medium transition-all duration-100 ease-in-out"
+                                href="#about">Projects</a></li>
+                        <li class="list-options hover:cursor-pointer"><a
+                                class="links hover:cursor-pointer hover:border-b-2 hover:border-b-[#15D3E0] active:font-medium transition-all duration-100 ease-in-out"
                                 href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -53,6 +56,8 @@
                             href="#">Home</a></li>
                     <li class="list-options hover:cursor-pointer pt-3"><a class="links hover:text-[#15D3E0] active:font-medium active:text-[#15D3E0]"
                             href="#about">About</a></li>
+                    <li class="list-options hover:cursor-pointer pt-3"><a class="links hover:text-[#15D3E0] active:font-medium active:text-[#15D3E0]"
+                            href="#projects">Projects</a></li>
                     <li class="list-options hover:cursor-pointer pt-3"><a class="links hover:text-[#15D3E0] active:font-medium active:text-[#15D3E0]"
                             href="#contact">Contact</a>
                     </li>
@@ -133,16 +138,11 @@
                 </section>
             </div>
         </div>
-        <div class="about-container bg-slate-100 py-1" id="about">
+        <div class="about-container bg-slate-50 py-2" id="about">
             <h1 class="text-2xl font-bold lg:text-3xl text-center">About <span
                     class="text-[#15D3E0]">Me</span></h1>
-            <div class="info-container flex flex-col justify-center items-center sm:flex-row sm:space-x-10 sm:py-5 md:py-8">
-                <section class="img-container">
-                    <img class="w-[10rem] sm:w-[14rem] rounded-2xl sm:rounded-lg shadow-sm my-3"
-                        src="/Images/My_Photo_at_Time_Squares.jpg" alt="My photo when I am at Times Squares">
-
-                </section>
-                <section class="aboutme bg-slate-50 mx-2 rounded-md shadow-lg sm:max-w-[65%] lg:max-w-[55%]">
+            <div class="info-container flex flex-col justify-center items-center">
+                <section class="aboutme bg-slate-50 mx-2 rounded-md shadow-lg md:max-w-[80%] xl:max-w-[60%]">
                     <div class="myinfo text-base md:text-lg text-justify py-2 mx-2">
                         <p class="para">Hello There! This is Narayan Khanal, an international student at Caldwell
                             University. I am pursuing my Bachelor's in Computer Science. <br><br> I aspire to become a
@@ -192,6 +192,10 @@
                                     <img class="w-6 hover:cursor-pointer hover:translate-y-0.5 transition-all duration-150 ease-in mt-1"
                                         src="/Images/tailwindcssLogo.png" alt="tailwindcssLogo" width="35"><span class="mt-[0.26rem]">Tailwindcss</span>
                                 </div>
+                                <div class="w-fit flex flex-col items-center">
+                                    <img class="w-5 hover:cursor-pointer hover:translate-y-0.5 transition-all duration-150 ease-in mt-1"
+                                        src="/Images/reactLogo.svg" alt="ReactLogo" width="35"><span>React</span>
+                                </div>
                             </div>
 
                         </div>
@@ -200,7 +204,73 @@
                 </section>
 
             </div>
+            
         </div>
+        <div class="projects-container pt-1 pb-4  bg-slate-100 flex flex-col gap-4 " id="projects">
+            <h1 class="text-2xl font-bold lg:text-3xl text-center my-3">Tech <span
+                class="text-[#15D3E0]">Projects</span></h1>
+            <div class="project-1 md:max-w-[80%] xl:max-w-[60%] px-2 py-5 mx-2 rounded-md shadow-md md:mx-auto bg-slate-50 flex flex-col sm:flex sm:flex-row sm:justify-between sm:gap-20">
+                <section class="left flex justify-center items-center">
+                    <img src="/Images/wefitwellSS.png" alt="fitnessapplogo" class=
+                    "sm:h-40 rounded-sm">
+                </section>
+                <section class="right w-[100%] sm:w-max-[50%] mt-2 mb-2">
+                    <div class="flex items-center justify-between border-b-2 border-b-black">
+                        <h2 class="project-title font-bold sm:text-md">WeFitWell</h2>
+                        <p class="pointer font-semibold border border-3 px-2 text-sm border-black"><a href="https://ru-hackathon-six.vercel.app/" target = "_blank">Visit<i class="fa-solid fa-arrow-right hover:translate-x-1 hover:transistion-all ml-1"></i></a></p>
+                    </div>
+                    <div class="info mt-1">
+                        <p class="text-justify">This project is React and TailwindCSS based fitness web application. During the hackathon, conducted by Major League Hacking in Rutugers University on 24-25 March 2024, me alongside a team of 3 members build this web app. This application uses Auth0 authentication and authorization for users signup/login. Application features include retrieving user's fitness-related data to motivate one by scheduling recommended tasks and incorporating dynamic emoji features to change with the task completion.</p>
+                    </div>
+                    <div class="skills-icons flex gap-4 mt-4">
+                        <div class="w-fit flex flex-col items-center">
+                            <img class="w-5 hover:cursor-pointer hover:translate-y-0.5 hover:transition-all duration-150 ease-in mt-1"
+                                src="/Images/reactLogo.svg" alt="ReactLogo" width="35"><span>React</span>
+                        </div>
+                        <div class="w-fit flex flex-col items-center">
+                            <img class="w-6 hover:cursor-pointer hover:translate-y-0.5 transition-all duration-150 ease-in mt-[0.35rem]"
+                                src="/Images/tailwindcssLogo.png" alt="tailwindcssLogo" width="35"><span class="mt-[0.26rem]">Tailwindcss</span>
+                        </div>
+                    </div>
+                   
+                </section>
+
+            </div>
+
+            <div class="project-2 md:max-w-[80%] xl:max-w-[60%] px-2 py-5 mx-2 rounded-md shadow-md md:mx-auto bg-slate-50 flex flex-col sm:flex sm:flex-row sm:justify-between sm:gap-20">
+                <section class="right w-[100%] sm:w-max-[50%] mt-2 mb-2">
+                    <div class="flex items-center justify-between border-b-2 border-b-black">
+                        <h2 class="project-title font-bold sm:text-md">Personal Portfolio</h2>
+                        <p class="pointer font-semibold border border-3 px-2 text-sm border-black"><a href="https://nkhanal-portfolio-website.vercel.app/" target = "_blank">Visit <i class="fa-solid fa-arrow-right hover:translate-x-1 hover:transistion-all ml-1"></i></a></p>
+                    </div>
+                    <div class="info mt-1">
+                        <p class="text-justify">It is my personal portfolio website, which you are currently viewing. This project is completely responsive and interactive. Using HTML, TailwindCSS, and JavaScript, I've built this project, and it showcases my skills and good understanding over these tools.</p>
+                    </div>
+                    <div class="skills-icons flex gap-4 mt-4">
+                        <div class="w-fit flex flex-col items-center">
+                            <img class="w-5 hover:cursor-pointer hover:translate-y-0.5 transition-all duration-150 ease-in"
+                                src="/Images/Html5logo.png" alt="Html5logo" width="35"><span class="mt-1">HTML</span>
+                        </div>
+                        <div class="w-fit flex flex-col items-center">
+                            <img class="w-6 hover:cursor-pointer hover:translate-y-0.5 transition-all duration-150 ease-in mt-[0.35rem]"
+                                src="/Images/tailwindcssLogo.png" alt="tailwindcssLogo" width="35"><span class="mt-[0.26rem]">Tailwindcss</span>
+                        </div>
+                        <div class="w-fit flex flex-col items-center">
+                            <img class="w-5 hover:cursor-pointer hover:translate-y-0.5 transition-all duration-150 ease-in -mt-[0.05rem]"
+                                src="/Images/JSlogo.png" alt="Jslogo" width="35"><span class="mt-1">Javascript</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="left flex justify-center items-center">
+                    <img src="/Images/PortfolioSS.png" alt="fitnessapplogo" class=
+                    "sm:h-40 rounded-sm">
+                </section>
+
+            </div>
+
+            
+        </div>
+        
         <div class="contact-container bg-slate-50 py-2" id="contact">
             <h1 class="text-2xl font-bold lg:text-3xl text-center my-3">Contact <span
                     class="text-[#15D3E0]">Me</span></h1>
