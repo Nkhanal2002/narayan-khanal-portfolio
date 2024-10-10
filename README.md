@@ -14,3 +14,7 @@ This is a fully responsive and interactive personal portfolio website showcasing
 - **Frontend** : HTML, TailwindCSS, JavaScript
 - **Library**: FontAwesome for icons
 - **Design Tool**: Figma
+
+### Gratitude
+
+Thank you for taking your time to read through my project. Your support and feedback are much appreciated.
